@@ -6,7 +6,7 @@
 		<bean id="sb1" class="SampleBean"/>
 		
 		<!-- Outer Bean Object Creation -->
-		<bean id="id2" class="DemoBean" autowire="byType">
+		<bean id="id2" class="DemoBean" autowire="constructor">
 		</bean>
 		
 	</beans>
